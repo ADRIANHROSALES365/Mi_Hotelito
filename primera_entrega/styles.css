@@ -15,25 +15,38 @@
     height: 400px;
     z-index: 0;
 }
+.padre
+{
+    display: flex;
+   
+}
+
+#menu_logo{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: solid 5px;
+   
+}
 
 .logo_principal{
     width: 150px;
     height: auto;
     margin: 2px;
-    display: inline;
-}
-
-.menu_principal{
-    list-style: none;
-    text-align: right;
-    display: inline-block;
+  
     
 }
 
-.menu_principal ul{
-    display: inline-block;
-    margin-left: 300px;
+.menu_principal{
+    display: block;
+    list-style: none;
+    flex-basis: 50%;
+    font-family: 'ADLaM Display', cursive;
+    padding-left: 400px;
+   
 }
+
+
 .menu_principal ul li{
     display: inline;
     margin-right: 50px;
@@ -41,6 +54,16 @@
 
 .menu_principal ul li a{    
     text-decoration: none;
-    color: black;
+    color: rgb(45, 44, 107);
     font-weight: bold;
 }
+
+.hero{
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
