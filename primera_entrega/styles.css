@@ -1,0 +1,46 @@
+/*Reset de estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.imagen_back_header{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+}
+
+.logo_principal{
+    width: 150px;
+    height: auto;
+    margin: 2px;
+    display: inline;
+}
+
+.menu_principal{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    
+}
+
+.menu_principal ul{
+    display: inline-block;
+    margin-left: 300px;
+}
+.menu_principal ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu_principal ul li a{    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
