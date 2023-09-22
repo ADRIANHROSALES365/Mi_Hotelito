@@ -1,0 +1,544 @@
+/*Reset de estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+   
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+    
+header{
+    background-image: url(https://images.pexels.com/photos/6179845/pexels-photo-6179845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+body{
+    background-color: white;
+    
+    
+   
+}
+.imagen_back_header{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+}
+.padre
+{
+    display: flex;
+   
+}
+
+.grid{
+
+    display: grid;
+}
+
+
+#menu_logo{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 80px;
+   
+}
+
+.logo_principal{
+    width: 150px;
+    height: auto;
+    margin: 2px;
+  
+    
+}
+
+.menu_principal{
+    display: block;
+    list-style: none;
+    flex-basis: 50%;
+    font-family: 'ADLaM Display', cursive;
+    
+   
+}
+
+
+.menu_principal ul li{
+    display: inline;
+    margin-right: 50px;
+   
+}
+
+.menu_principal ul li a{    
+    text-decoration: none;
+    color: #A9FFF7;
+    font-size: 20px;
+    
+}
+
+.menu_principal ul li a:hover{    
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    
+}
+
+
+
+.hero{
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+main{
+    width: 100%;
+}
+
+
+p{
+    font-family: 'Crimson Text', serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 15px;
+    color: black;
+}
+
+main p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.h2{
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 800;
+    margin-left: 2px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#carrusel_de_imagenes{
+    width: 100%;
+    
+}
+
+.calificaciones_clientes{
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    
+   
+}
+.elemento_calif{
+   
+   flex-direction: column;
+   flex-basis: 25%;
+   justify-content: space-between;
+
+    
+}
+
+.elemento_calif p{
+    text-align: justify;
+    font-size: 12px;
+    margin-left: 5px;
+    flex-shrink: 1;
+
+}
+
+.usuario img{
+    height: 50px;
+}
+.calif_estrellas{
+    padding-bottom: 10px;
+}
+
+.checked{
+    color:orange;
+}
+
+footer{
+    margin-top: 10px;
+    border-top: solid 3px black;
+ 
+}
+
+.menu_secundario{
+    list-style: none;
+    flex-basis: 30%;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+   
+}
+.menu_secundario ul{    
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.menu_secundario ul li {    
+    list-style: none;
+    
+}
+.menu_secundario ul li a{    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'ADLaM Display', cursive;
+    
+}
+
+.elementos_footer_derecha{
+    flex-basis: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.logo_footer{
+    width: 75px;
+    height: 75px;
+   
+}
+
+/*CSS PAGINA HABITACIONES*/
+
+.back_2{
+    width: 100%;
+    
+}
+
+.hero_habita{
+    font-family: 'ADLaM Display', cursive;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.hero_habita p{
+    padding-top: 10px;
+}
+
+.main_habitaciones{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.habitacion{
+    width: auto;
+    height: auto;
+}
+
+.imagen_habitacion{
+    width: 450px;
+    height: 270px;
+}
+
+.desc_habitacion{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*PAGINA SERVICIOS*/
+
+/*.main_servicios
+{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+*/
+.servicio{
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.servicio img{
+    width: 450px;
+    height: auto;
+    border-radius: 10%;
+}
+#hero_servicios p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.servicios_main img{
+
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.servicios_main img:hover{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.col h2{
+    font-size: 20px;
+    margin-left: 2px;
+
+}
+
+
+.head_servicios{
+
+    background-image: url(https://images.pexels.com/photos/9267/earth-summer-garden-table.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 350px;
+    width: auto;
+    background-size: cover;
+
+}
+
+.head_servicios img{
+
+    border-radius: 20px;
+
+   
+
+}
+
+/*Pagina contacto*/
+
+#main_contacto{
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.parte_formulario{
+    flex-direction: column;
+}
+
+.input_formulario
+{
+    border: solid 1px;
+    border-radius: 5px;
+}
+.formulaio_principal button{
+    border-radius: 1px;
+    font-family: 'ADLaM Display', cursive;
+    border-radius: 10px;
+}
+
+.duo{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#boton_enviar{
+    width: 250px;
+    height: 50px;
+   align-self: center;
+   border-radius: 10px;
+}
+
+#boton_enviar:hover{
+    background-color: skyblue   ;
+}
+
+#boton_enviar:active{
+    background-color: black;
+    color: white;
+}
+
+.grid_contacto {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid black 1px;
+    border-radius: 5px;
+    }
+.grid_contacto input:hover{
+    border: solid yellow 2px;
+
+}    
+    
+.div1 { grid-area: 1 / 2 / 2 / 4; 
+}
+.div2 { grid-area: 2 / 2 / 3 / 4; 
+}
+.div3 { grid-area: 3 / 2 / 4 / 4; 
+}
+.div4 { grid-area: 4 / 2 / 5 / 4; 
+}
+.div5 { grid-area: 5 / 2 / 6 / 4; 
+}
+.div6 { grid-area: 1 / 4 / 3 / 6;   
+}
+
+.contact_main{
+    justify-content: space-around;
+    margin: 0 auto;
+    border: solid rgb(194, 178, 128) 1px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contact_main img{
+
+    border-radius: 5px;
+}
+
+
+.contacto_h1principal h1{
+    align-self: center;
+}
+
+
+
+
+
+/*PAGINA UBICACION*/
+
+#hero_ubicacion
+{
+    justify-self: center;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.mapa{
+    flex-direction: column;
+    align-items: center;
+}
+
+#direccion{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#direccion  li span{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+
+/*RESPONSIVE DESIGN */
+
+@media (min-width: 768px)
+{
+    .slider{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .calificaciones_clientes{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1r;
+    gap: 20px;
+    }
+
+    .menu_principal ul li{
+        display: inline;
+        margin-right: 30px;
+       
+    }
+
+    .menu_principal ul li a{
+        font-size: 90%;
+       
+    }
+}
+
+@media (min-width:601px) and (max-width:767px)
+{
+    .slider{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .calificaciones_clientes{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    }
+    #menu_logo{
+        justify-content: space-evenly;
+        margin: 0 auto;
+        padding-top: 80px;
+        width: 50px;
+        
+    }
+
+    .menu_principal ul{
+        flex-direction: column;
+        
+       
+    }
+    
+
+    .menu_principal ul li a{    
+        text-decoration: none;
+        color: #A9FFF7;
+        font-size: 70%;
+        
+    }
+    
+
+}
+
+
+@media (max-width: 600px)
+{
+    #menu_logo{
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        padding-top: 80px;
+    }
+
+    .menu_principal ul{
+        flex-direction: column;
+        
+       
+    }
+
+    .menu_principal ul li a{    
+        text-decoration: none;
+        color: #A9FFF7;
+        font-size: 14px;
+        
+    }
+    
+
+    .elementos_footer_derecha{
+        flex-direction: column;
+    }
+
+    .menu_secundario{
+        list-style: none;
+        align-self: center;
+        justify-self: flex-end; 
+        margin: 0   auto;
+       
+    }
+    
+}
