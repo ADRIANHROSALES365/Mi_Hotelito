@@ -11,7 +11,7 @@
 
 .container{
 
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -254,6 +254,16 @@ footer{
     justify-content: space-between;
 }
 
+.head_habi{
+    background-image: url(https://images.pexels.com/photos/984917/pexels-photo-984917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-size: 1250px;
+    
+    
+}
+
+.menu_principal .menu_habi li a{
+    color: blueviolet;
+}
 
 /*PAGINA SERVICIOS*/
 
