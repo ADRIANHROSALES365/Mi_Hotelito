@@ -16,6 +16,14 @@
     width: 100%;
     height: auto;
 }
+
+.shadow{
+    box-shadow: 0 1px 0 0 gray;
+    box-shadow: 0 -1px 0 0 gray; 
+    box-shadow: -1px 0 0 0 gray; 
+    box-shadow: 1px 0 0 0 gray; 
+    box-shadow: 0 0 0 1px gray; 
+}
     
 header{
     background-image: url(https://images.pexels.com/photos/6179845/pexels-photo-6179845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -254,6 +262,13 @@ footer{
     justify-content: space-between;
 }
 
+.desc_habitacion li {
+    margin-bottom: 5px;
+    
+
+}
+
+
 .head_habi{
     background-image: url(https://images.pexels.com/photos/984917/pexels-photo-984917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
     background-size: 1250px;
@@ -267,14 +282,7 @@ footer{
 
 /*PAGINA SERVICIOS*/
 
-/*.main_servicios
-{
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
-*/
+
 .servicio{
     width: 500px;
     height: auto;
@@ -303,9 +311,11 @@ footer{
 
 .servicios_main img:hover{
 
-    width: 400px;
-    height: 300px;
+   /* width: 400px;
+    height: 300px;*/
     border-radius: 5px;
+    scale: 1.5 1.5;
+    z-index: 0;
 
 }
 
@@ -413,6 +423,9 @@ footer{
     border-radius: 5px;
 }
 
+.contact_main button{
+    margin-left: 25px;
+}
 .contact_main img{
 
     border-radius: 5px;
@@ -423,6 +436,10 @@ footer{
     align-self: center;
 }
 
+.main_contacto img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 
 
@@ -512,6 +529,18 @@ footer{
         font-size: 70%;
         
     }
+
+    #mapa iframe{
+        scale: .75;
+    }
+
+    .main_contacto img{
+        scale: .75;
+    }
+
+    .contact_main{
+        flex-direction: column;
+    }
     
 
 }
@@ -550,5 +579,20 @@ footer{
         margin: 0   auto;
        
     }
+
+    #mapa iframe{
+        scale: .5;
+    }
+
+    #mapa iframe:hover{
+        scale: 2;
+    }
     
+    .main_contacto img{
+        scale: .75;
+    }
+
+    .contact_main{
+        flex-direction: column;
+    }
 }
