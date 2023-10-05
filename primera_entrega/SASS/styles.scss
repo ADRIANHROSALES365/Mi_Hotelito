@@ -1,0 +1,539 @@
+/*Reset de estilos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .shadow {
+    box-shadow: 0 1px 0 0 gray;
+    box-shadow: 0 -1px 0 0 gray;
+    box-shadow: -1px 0 0 0 gray;
+    box-shadow: 1px 0 0 0 gray;
+    box-shadow: 0 0 0 1px gray;
+  }
+  
+  header {
+    background-image: url(https://images.pexels.com/photos/6179845/pexels-photo-6179845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .imagen_back_header {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+  }
+  
+  .padre {
+    display: flex;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  #menu_logo {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 80px;
+  }
+  
+  .logo_principal {
+    width: 150px;
+    height: auto;
+    margin: 2px;
+  }
+  
+  .menu_principal {
+    display: block;
+    list-style: none;
+    flex-basis: 50%;
+    font-family: 'ADLaM Display', cursive;
+  
+    ul li {
+      display: inline;
+      margin-right: 50px;
+  
+      a {
+        text-decoration: none;
+        color: #A9FFF7;
+        font-size: 20px;
+  
+        &:hover {
+          text-decoration: none;
+          color: blue;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+  .hero {
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  p {
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
+    color: black;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .h2 {
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 800;
+    margin-left: 2px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #carrusel_de_imagenes {
+    width: 100%;
+  }
+  
+  .calificaciones_clientes {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .elemento_calif {
+    flex-direction: column;
+    flex-basis: 25%;
+    justify-content: space-between;
+  
+    p {
+      text-align: justify;
+      font-size: 12px;
+      margin-left: 5px;
+      flex-shrink: 1;
+    }
+  }
+  
+  .usuario img {
+    height: 50px;
+  }
+  
+  .calif_estrellas {
+    padding-bottom: 10px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  footer {
+    margin-top: 10px;
+    border-top: solid 3px black;
+  }
+  
+  .menu_secundario {
+    list-style: none;
+    flex-basis: 30%;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  
+    ul {
+      flex-direction: column;
+      justify-content: space-around;
+  
+      li {
+        list-style: none;
+  
+        a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          font-size: 15px;
+          font-family: 'ADLaM Display', cursive;
+        }
+      }
+    }
+  }
+  
+  .elementos_footer_derecha {
+    flex-basis: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 80px;
+  }
+  
+  .logo_footer {
+    width: 75px;
+    height: 75px;
+  }
+  
+  /*CSS PAGINA HABITACIONES*/
+  
+  .back_2 {
+    width: 100%;
+  }
+  
+  .hero_habita {
+    font-family: 'ADLaM Display', cursive;
+    margin-left: 10px;
+    font-size: 20px;
+  
+    p {
+      padding-top: 10px;
+    }
+  }
+  
+  .main_habitaciones {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .habitacion {
+    width: auto;
+    height: auto;
+  }
+  
+  .imagen_habitacion {
+    width: 450px;
+    height: 270px;
+  }
+  
+  .desc_habitacion {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  
+  .head_habi {
+    background-image: url(https://images.pexels.com/photos/984917/pexels-photo-984917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 1250px;
+  }
+  
+  .menu_principal .menu_habi li a {
+    color: blueviolet;
+  }
+  
+  /*PAGINA SERVICIOS*/
+  
+  .servicio {
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    img {
+      width: 450px;
+      height: auto;
+      border-radius: 10%;
+    }
+  }
+  
+  #hero_servicios p {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .servicios_main img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+  
+    &:hover {
+      /* width: 400px;
+       height: 300px;*/
+      border-radius: 5px;
+      scale: 1.5 1.5;
+      z-index: 0;
+    }
+  }
+  
+  .col h2 {
+    font-size: 20px;
+    margin-left: 2px;
+  }
+  
+  .head_servicios {
+    background-image: url(https://images.pexels.com/photos/9267/earth-summer-garden-table.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 350px;
+    width: auto;
+    background-size: cover;
+  
+    img {
+      border-radius: 20px;
+    }
+  }
+  
+  /*Pagina contacto*/
+  
+  #main_contacto {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .parte_formulario {
+    flex-direction: column;
+  }
+  
+  .input_formulario {
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  
+  .formulaio_principal button {
+    border-radius: 1px;
+    font-family: 'ADLaM Display', cursive;
+    border-radius: 10px;
+  }
+  
+  .duo {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #boton_enviar {
+    width: 250px;
+    height: 50px;
+    align-self: center;
+    border-radius: 10px;
+  
+    &:hover {
+      background-color: skyblue;
+    }
+  
+    &:active {
+      background-color: black;
+      color: white;
+    }
+  }
+  
+  .grid_contacto {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid black 1px;
+    border-radius: 5px;
+  
+    input:hover {
+      border: solid yellow 2px;
+    }
+  }
+  
+  .div1 {
+    grid-area: 1 / 2 / 2 / 4;
+  }
+  
+  .div2 {
+    grid-area: 2 / 2 / 3 / 4;
+  }
+  
+  .div3 {
+    grid-area: 3 / 2 / 4 / 4;
+  }
+  
+  .div4 {
+    grid-area: 4 / 2 / 5 / 4;
+  }
+  
+  .div5 {
+    grid-area: 5 / 2 / 6 / 4;
+  }
+  
+  .div6 {
+    grid-area: 1 / 4 / 3 / 6;
+  }
+  
+  .contact_main {
+    justify-content: space-around;
+    margin: 0 auto;
+    border: solid rgb(194, 178, 128) 1px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 5px;
+  
+    button {
+      margin-left: 25px;
+    }
+  
+    img {
+      border-radius: 5px;
+    }
+  }
+  
+  .contacto_h1principal h1 {
+    align-self: center;
+  }
+  
+  .main_contacto img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  /*PAGINA UBICACION*/
+  
+  #hero_ubicacion {
+    justify-self: center;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .mapa {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #direccion {
+    list-style: none;
+    margin-top: 20px;
+  
+    li span {
+      font-family: 'Lato', sans-serif;
+      font-weight: bolder;
+    }
+  }
+  
+  /*RESPONSIVE DESIGN */
+  
+  @media (min-width: 768px) {
+    .slider {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .calificaciones_clientes {
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      grid-row: 1fr 1r;
+      gap: 20px;
+    }
+  
+    .menu_principal ul li {
+      display: inline;
+      margin-right: 30px;
+  
+      a {
+        font-size: 90%;
+      }
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 767px) {
+    .slider {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .calificaciones_clientes {
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  
+    #menu_logo {
+      justify-content: space-evenly;
+      margin: 0 auto;
+      padding-top: 80px;
+      width: 50px;
+    }
+  
+    .menu_principal ul {
+      flex-direction: column;
+  
+      li a {
+        text-decoration: none;
+        color: #A9FFF7;
+        font-size: 70%;
+      }
+    }
+  
+    #mapa iframe, .main_contacto img {
+      scale: .75;
+    }
+  
+    .contact_main {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #menu_logo {
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+      padding-top: 80px;
+    }
+  
+    .menu_principal ul {
+      flex-direction: column;
+  
+      li a {
+        text-decoration: none;
+        color: #A9FFF7;
+        font-size: 14px;
+      }
+    }
+  
+    .elementos_footer_derecha {
+      flex-direction: column;
+    }
+  
+    .menu_secundario {
+      list-style: none;
+      align-self: center;
+      justify-self: flex-end;
+      margin: 0   auto;
+    }
+  
+    #mapa iframe {
+      scale: .5;
+  
+      &:hover {
+        scale: 2;
+      }
+    }
+  
+    .main_contacto img {
+      scale: .75;
+    }
+  
+    .contact_main {
+      flex-direction: column;
+    }
+  }
