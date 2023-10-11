@@ -1,4 +1,5 @@
 /*Reset de estilos*/
+/* line 3, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   vertical-align: baseline;
 }
 
+/* line 12, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -15,6 +17,7 @@
   height: auto;
 }
 
+/* line 19, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .shadow {
   box-shadow: 0 1px 0 0 gray;
   box-shadow: 0 -1px 0 0 gray;
@@ -23,6 +26,7 @@
   box-shadow: 0 0 0 1px gray;
 }
 
+/* line 27, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 header {
   background-image: url(https://images.pexels.com/photos/6179845/pexels-photo-6179845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 400px;
@@ -30,10 +34,17 @@ header {
   background-size: cover;
 }
 
+/* line 34, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 body {
   background-color: white;
 }
 
+/* line 37, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
+body p {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 42, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .imagen_back_header {
   margin-top: 0px;
   margin-bottom: 20px;
@@ -42,14 +53,17 @@ body {
   z-index: 0;
 }
 
+/* line 50, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .padre {
   display: flex;
 }
 
+/* line 54, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .grid {
   display: grid;
 }
 
+/* line 58, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #menu_logo {
   justify-content: space-evenly;
   align-items: center;
@@ -57,12 +71,14 @@ body {
   padding-top: 80px;
 }
 
+/* line 65, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .logo_principal {
   width: 150px;
   height: auto;
   margin: 2px;
 }
 
+/* line 71, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_principal {
   display: block;
   list-style: none;
@@ -70,23 +86,27 @@ body {
   font-family: 'ADLaM Display', cursive;
 }
 
+/* line 77, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_principal ul li {
   display: inline;
   margin-right: 50px;
 }
 
+/* line 81, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_principal ul li a {
   text-decoration: none;
   color: #A9FFF7;
   font-size: 20px;
 }
 
+/* line 86, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_principal ul li a:hover {
   text-decoration: none;
   color: blue;
   font-size: 20px;
 }
 
+/* line 95, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .hero {
   font-family: 'ADLaM Display', cursive;
   font-weight: 800;
@@ -94,21 +114,25 @@ body {
   font-size: 30px;
 }
 
+/* line 102, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 main {
   width: 100%;
 }
 
+/* line 106, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 p {
   font-family: 'Crimson Text', serif;
   font-size: 15px;
   color: black;
 }
 
+/* line 112, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 main p {
   margin-bottom: 20px;
   text-align: justify;
 }
 
+/* line 117, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .h2 {
   font-family: 'ADLaM Display', cursive;
   font-weight: 800;
@@ -118,22 +142,26 @@ main p {
   margin-bottom: 20px;
 }
 
+/* line 126, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #carrusel_de_imagenes {
   width: 100%;
 }
 
+/* line 130, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .calificaciones_clientes {
   width: 100%;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
+/* line 136, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .elemento_calif {
   flex-direction: column;
   flex-basis: 25%;
   justify-content: space-between;
 }
 
+/* line 141, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .elemento_calif p {
   text-align: justify;
   font-size: 12px;
@@ -141,23 +169,28 @@ main p {
   flex-shrink: 1;
 }
 
+/* line 149, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .usuario img {
   height: 50px;
 }
 
+/* line 153, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .calif_estrellas {
   padding-bottom: 10px;
 }
 
+/* line 157, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .checked {
   color: orange;
 }
 
+/* line 161, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 footer {
   margin-top: 10px;
   border-top: solid 3px black;
 }
 
+/* line 166, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_secundario {
   list-style: none;
   flex-basis: 30%;
@@ -166,15 +199,18 @@ footer {
   padding-top: 10px;
 }
 
+/* line 173, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_secundario ul {
   flex-direction: column;
   justify-content: space-around;
 }
 
+/* line 177, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_secundario ul li {
   list-style: none;
 }
 
+/* line 180, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_secundario ul li a {
   text-decoration: none;
   color: black;
@@ -182,6 +218,7 @@ footer {
   font-family: 'ADLaM Display', cursive;
 }
 
+/* line 190, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .elementos_footer_derecha {
   flex-basis: 70%;
   justify-content: space-evenly;
@@ -189,42 +226,50 @@ footer {
   padding-left: 80px;
 }
 
+/* line 197, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .logo_footer {
   width: 75px;
   height: 75px;
 }
 
 /*CSS PAGINA HABITACIONES*/
+/* line 204, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .back_2 {
   width: 100%;
 }
 
+/* line 208, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .hero_habita {
   font-family: 'ADLaM Display', cursive;
   margin-left: 10px;
   font-size: 20px;
 }
 
+/* line 213, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .hero_habita p {
   padding-top: 10px;
 }
 
+/* line 218, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .main_habitaciones {
   flex-direction: column;
   align-items: center;
   margin-top: 15px;
 }
 
+/* line 224, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .habitacion {
   width: auto;
   height: auto;
 }
 
+/* line 229, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .imagen_habitacion {
   width: 450px;
   height: 270px;
 }
 
+/* line 234, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .desc_habitacion {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -234,20 +279,24 @@ footer {
   justify-content: space-between;
 }
 
+/* line 242, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .desc_habitacion li {
   margin-bottom: 5px;
 }
 
+/* line 247, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .head_habi {
   background-image: url(https://images.pexels.com/photos/984917/pexels-photo-984917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: 1250px;
 }
 
+/* line 252, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .menu_principal .menu_habi li a {
   color: blueviolet;
 }
 
 /*PAGINA SERVICIOS*/
+/* line 258, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .servicio {
   width: 500px;
   height: auto;
@@ -255,24 +304,28 @@ footer {
   margin-bottom: 10px;
 }
 
+/* line 264, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .servicio img {
   width: 450px;
   height: auto;
   border-radius: 10%;
 }
 
+/* line 271, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #hero_servicios p {
   font-family: 'Lato', sans-serif;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 
+/* line 277, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .servicios_main img {
   width: 300px;
   height: 200px;
   border-radius: 5px;
 }
 
+/* line 282, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .servicios_main img:hover {
   /* width: 400px;
        height: 300px;*/
@@ -281,11 +334,13 @@ footer {
   z-index: 0;
 }
 
+/* line 291, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .col h2 {
   font-size: 20px;
   margin-left: 2px;
 }
 
+/* line 296, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .head_servicios {
   background-image: url(https://images.pexels.com/photos/9267/earth-summer-garden-table.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 350px;
@@ -293,37 +348,44 @@ footer {
   background-size: cover;
 }
 
+/* line 302, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .head_servicios img {
   border-radius: 20px;
 }
 
 /*Pagina contacto*/
+/* line 309, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #main_contacto {
   flex-direction: column;
   margin-left: 10px;
 }
 
+/* line 314, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .parte_formulario {
   flex-direction: column;
 }
 
+/* line 318, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .input_formulario {
   border: solid 1px;
   border-radius: 5px;
 }
 
+/* line 323, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .formulaio_principal button {
   border-radius: 1px;
   font-family: 'ADLaM Display', cursive;
   border-radius: 10px;
 }
 
+/* line 329, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .duo {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+/* line 335, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #boton_enviar {
   width: 250px;
   height: 50px;
@@ -331,15 +393,18 @@ footer {
   border-radius: 10px;
 }
 
+/* line 341, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #boton_enviar:hover {
   background-color: skyblue;
 }
 
+/* line 345, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #boton_enviar:active {
   background-color: black;
   color: white;
 }
 
+/* line 351, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .grid_contacto {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -350,34 +415,42 @@ footer {
   border-radius: 5px;
 }
 
+/* line 360, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .grid_contacto input:hover {
   border: solid yellow 2px;
 }
 
+/* line 365, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div1 {
   grid-area: 1 / 2 / 2 / 4;
 }
 
+/* line 369, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div2 {
   grid-area: 2 / 2 / 3 / 4;
 }
 
+/* line 373, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div3 {
   grid-area: 3 / 2 / 4 / 4;
 }
 
+/* line 377, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div4 {
   grid-area: 4 / 2 / 5 / 4;
 }
 
+/* line 381, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div5 {
   grid-area: 5 / 2 / 6 / 4;
 }
 
+/* line 385, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .div6 {
   grid-area: 1 / 4 / 3 / 6;
 }
 
+/* line 389, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .contact_main {
   justify-content: space-around;
   margin: 0 auto;
@@ -387,24 +460,29 @@ footer {
   border-radius: 5px;
 }
 
+/* line 397, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .contact_main button {
   margin-left: 25px;
 }
 
+/* line 401, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .contact_main img {
   border-radius: 5px;
 }
 
+/* line 406, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .contacto_h1principal h1 {
   align-self: center;
 }
 
+/* line 410, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .main_contacto img {
   margin-right: 10px;
   margin-left: 10px;
 }
 
 /*PAGINA UBICACION*/
+/* line 417, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #hero_ubicacion {
   justify-self: center;
   font-family: 'ADLaM Display', cursive;
@@ -412,16 +490,19 @@ footer {
   margin-bottom: 20px;
 }
 
+/* line 424, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 .mapa {
   flex-direction: column;
   align-items: center;
 }
 
+/* line 429, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #direccion {
   list-style: none;
   margin-top: 20px;
 }
 
+/* line 433, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
 #direccion li span {
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
@@ -429,88 +510,110 @@ footer {
 
 /*RESPONSIVE DESIGN */
 @media (min-width: 768px) {
+  /* line 442, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .slider {
     grid-template-columns: 1fr 1fr;
   }
+  /* line 446, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .calificaciones_clientes {
     width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-row: 1fr 1r;
     gap: 20px;
   }
+  /* line 453, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul li {
     display: inline;
     margin-right: 30px;
   }
+  /* line 457, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul li a {
     font-size: 90%;
   }
 }
 
 @media (min-width: 601px) and (max-width: 767px) {
+  /* line 464, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .slider {
     grid-template-columns: 1fr 1fr;
   }
+  /* line 468, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .calificaciones_clientes {
     width: 100%;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  /* line 474, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   #menu_logo {
     justify-content: space-evenly;
     margin: 0 auto;
     padding-top: 80px;
     width: 50px;
   }
+  /* line 481, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul {
     flex-direction: column;
   }
+  /* line 484, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul li a {
     text-decoration: none;
     color: #A9FFF7;
     font-size: 70%;
   }
+  /* line 491, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   #mapa iframe, .main_contacto img {
     scale: .75;
   }
+  /* line 495, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .contact_main {
     flex-direction: column;
   }
 }
 
 @media (max-width: 600px) {
+  /* line 501, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   #menu_logo {
     justify-content: space-evenly;
     margin-bottom: 10px;
     padding-top: 80px;
   }
+  /* line 507, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul {
     flex-direction: column;
   }
+  /* line 510, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_principal ul li a {
     text-decoration: none;
     color: #A9FFF7;
     font-size: 14px;
   }
+  /* line 517, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .elementos_footer_derecha {
     flex-direction: column;
   }
+  /* line 521, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .menu_secundario {
     list-style: none;
     align-self: center;
     justify-self: flex-end;
     margin: 0   auto;
   }
+  /* line 528, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   #mapa iframe {
     scale: .5;
   }
+  /* line 531, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   #mapa iframe:hover {
     scale: 2;
   }
+  /* line 536, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .main_contacto img {
     scale: .75;
   }
+  /* line 540, ../../../OneDrive/Documentos/Programacion/FRONT END CODER/PROYECTO FINAL/primera_entrega/SASS/styles.scss */
   .contact_main {
     flex-direction: column;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
